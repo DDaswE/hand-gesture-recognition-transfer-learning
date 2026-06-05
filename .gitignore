@@ -1,0 +1,13 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pt
+*.pth
+*.pkl
+models/
+features/
+Lab_3b_Gesture_Dataset*/
+A2_Hand_Gesture_Dataset*/
+A2_Hand_Gesture_Unlabeled_Data*/
+unlabeled_data/
+my_data/
