@@ -1,4 +1,4 @@
-# Hand Gesture Recognition with Transfer Learning
+#  Hand Gesture Recognition with Transfer Learning (American-sign-language)
 
 Computer-vision workflow for 9-class hand gesture recognition using custom CNNs, self-collected images, AlexNet feature extraction, and ResNet18 transfer-learning comparison.
 
