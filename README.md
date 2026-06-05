@@ -4,16 +4,17 @@ Computer-vision workflow for 9-class hand gesture recognition using custom CNNs,
 
 ## Preview
 
-<table>
-  <tr>
-    <td width="55%">
-      <img src="./preview_self_collected_gestures.png" alt="Self-collected hand gesture samples" width="100%">
-    </td>
-    <td width="45%">
-      <img src="./preview_transfer_confusion_matrix.png" alt="Transfer learning confusion matrix" width="100%">
-    </td>
-  </tr>
-</table>
+<img src="./preview_self_collected_gestures.png" alt="Self-collected hand gesture samples" width="100%">
+
+**Figure 1.** Self-collected A-I gesture samples used to evaluate real-world model generalization.
+
+<img src="./preview_transfer_confusion_matrix.png" alt="Transfer learning confusion matrix" width="100%">
+
+**Figure 2.** Confusion matrix for the AlexNet transfer-learning classifier on the held-out gesture test set.
+
+<img src="./preview_complex_background_confusion_matrix.png" alt="Complex-background stress-test confusion matrix" width="100%">
+
+**Figure 3.** Complex-background stress-test confusion matrix showing how performance changes under domain shift.
 
 ## Project summary
 
@@ -21,12 +22,12 @@ This project builds a hand gesture classifier for nine gesture classes labeled A
 
 ## Problem
 
-The assignment asks for two major components:
+This project aims to complete two major computer-vision components:
 
 > 1. Gather a small personal image dataset of hand gestures and understand the challenges involved in data cleaning.
 > 2. Train convolutional neural networks to classify different hand gestures, then use transfer learning from pretrained image models to improve classification performance.
 
-The assignment also requires testing models on new data that was not part of training, comparing custom CNNs with pretrained feature extractors, and discussing robustness issues such as domain shift, backgrounds, lighting, and real-world bias.
+The workflow also tests models on new data that was not part of training, compares custom CNNs with pretrained feature extractors, and discusses robustness issues such as domain shift, backgrounds, lighting, and real-world bias.
 
 ## Data
 
