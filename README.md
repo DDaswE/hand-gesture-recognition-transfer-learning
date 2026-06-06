@@ -1,6 +1,10 @@
-#  Hand Gesture Recognition with Transfer Learning (American Sign Language)
+# Hand Gesture Recognition with Transfer Learning (American Sign Language)
 
 Computer-vision workflow for 9-class hand gesture recognition using custom CNNs, self-collected images, AlexNet feature extraction, and ResNet18 transfer-learning comparison.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1o9WxhEIRPnXpo0Uhr0pXHWI3aGBy-zH2?usp=sharing) [GitHub Repo](https://github.com/DDaswE/hand-gesture-recognition-transfer-learning)
+
+> Opening this notebook in Colab creates a working copy. The source notebook in GitHub remains unchanged unless a user already has write access to this repository.
 
 ## Preview
 
